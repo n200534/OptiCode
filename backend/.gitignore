@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Python package logs
+*.log
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# MyPy & Pyright type checker caches
+.mypy_cache/
+.pyright/
+
+# Pytest / Coverage reports
+.coverage
+htmlcov/
+coverage.xml
+.cache/
+
+# VS Code & JetBrains IDE settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pydantic compiled cache
+__pydantic__/  # Optional if you're using Pydantic v2
+
+# SQLite or other local DB files (optional)
+*.sqlite3
+*.db
+
+# Uvicorn access logs (optional)
+access.log

@@ -39,7 +39,7 @@ export default function CodeChecker({
     setLoading(true);
 
     try {
-      const response = await fetch(`http://localhost:8000/code-checker`, {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_KEY}/code-checker`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ code }),
